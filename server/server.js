@@ -12,8 +12,8 @@ app.use(cross);
 app.post('/token', (req, res, next) => {
 
   axios.post('https://github.com/login/oauth/access_token', {
-    "client_id": "1616cb1b4c01408179a8",
-    "client_secret": "69eb698f86005fa164b2056ddd1e36086890c7aa",
+    "client_id": "311e1101af57165b8225",
+    "client_secret": "a06793b5b00ae6a0030a0c5f2e37235a1f842547",
     "code": req.body.code,
     "redirect_uri": "http://localhost:4200/posts",
     "state": "111111"
