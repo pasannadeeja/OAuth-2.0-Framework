@@ -1,0 +1,17 @@
+{
+  "name": "Git_Oauth_Demo",
+  "version": "1.0.0",
+  "description": "Git Oauth Demo Server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Kasun Madusanka",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.4"
+  }
+}
